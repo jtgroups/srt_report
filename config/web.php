@@ -59,6 +59,11 @@ $config = [
       ],
      */
     ],
+    'modules' => [
+        'hdcreport' => [
+            'class' => 'app\models\hdcreport\Module',
+        ],
+    ],
     'params' => $params,
 ];
 
